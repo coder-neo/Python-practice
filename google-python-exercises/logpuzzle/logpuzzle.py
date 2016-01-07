@@ -73,7 +73,8 @@ def download_images(img_urls, dest_dir):
   f = open(dest_dir+'/index.html','w')
   f.write('\n'.join(index_file))
   f.close()
-  webbrowser.open(dest_dir+'/index.html',new=1)
+  # Code to open image in browser
+  #webbrowser.open(dest_dir+'/index.html',new=1)
   return  
 
 
